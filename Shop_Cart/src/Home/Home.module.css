@@ -1,0 +1,33 @@
+.container{
+    width:90%;
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edfbfc;
+    box-shadow:10px 0px 10px gray,
+    -10px 0px 10px gray;
+}
+.btns{
+    display:flex;
+    width:50%;
+    justify-content: space-around;
+    margin-top:10px;
+    gap:10px;
+}
+.btn{
+    border-radius:10px;
+    background-color: #edfbfc;
+    color:#2a9d8f;
+    border-color:#2a9d8f;
+    width:100px;
+    height:25px;
+    box-shadow:0 5px 10px gray;
+    transition:border 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+    cursor:pointer;
+}
+.active{
+box-shadow:none;
+border:none;
+}
